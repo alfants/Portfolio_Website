@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicons/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="assets/favicons/favicon.ico"> -->
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#a789d4">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title> My Portfolio </title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Alfan</a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item ">
+                        <a href="#home" class="nav__link" title="Home">
+                            <i class='bx bx-home'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item ">
+                        <a href="#about" class="nav__link" title="About">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link" title="Experience">
+                            <i class='bx bx-book-bookmark'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link" title="Project">
+                            <i class='bx bx-briefcase-alt-2'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link" title="Education">
+                            <i class='bx bxs-graduation'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!--=============== theme change button ===============-->
+            <i class='bx bx-moon change-theme change-theme-button' id="theme-button"></i>
+
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting">Hello, I'm</span>
+                    <h1 class="home__name">M. Alfan Tsalits</h1>
+                    <h3 class="home__education">AI & Machine Learning | Data Enthusiast <br> | Street Photographer</h3>
+
+                    <div class="home__button">
+                        <a download="CV_Data.pdf" href="assets/pdf/CV_Data.pdf" class="button button--ghost">
+                            Download CV
+                        </a>
+
+                        <a href="#about" class="button">About</a>
+                    </div>
+                </div>
+
+                <div class="home__handle">
+                    <img src="assets/img/" alt="" class="home__img">
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/m-alfan" target="_blank" class="home__social-link" title="LinkedIn">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="https://instagram.com/vhan_5" target="_blank" class="home__social-link" title="Instagram">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                    <a href="https://github.com/alfants" target="_blank" class="home__social-link" title="GitHub">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                </div>
+
+                <a href="#about" class="home__scroll">
+                    <i class='bx bx-mouse home__scroll-icon'></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
+            </div>
+        </section>
+
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+            <span class="section__subtitle">My Intro</span>
+            <h2 class="section__title">About Me</h2>
+
+            <div class="about__container container grid">
+                <img src="assets/img/mainphotobgpurple.png" alt="" class="about__img">
+
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class='bx bx-briefcase-alt about__icon'></i>
+                            <h3 class="about__title">Recent Study</h3>
+                            <span class="about__subtitle">Undergraduate Student</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-book-reader about__icon'></i>
+                            <h3 class="about__title">Study Major</h3>
+                            <span class="about__subtitle">Information System</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-award about__icon'></i>
+                            <h3 class="about__title">Experience</h3>
+                            <span class="about__subtitle">3 Years in College</span>
+                        </div>
+                    </div>
+
+                    <p class="about__description">
+                        As an AI and Machine Learning enthusiast, I am passionate about exploring how these technologies can transform data into valuable insights. 
+                        With expertise in data processing and analysis, I am dedicated to developing innovative and efficient solutions. 
+                        Additionally, I have a keen interest in street photography, capturing everyday moments that often go unnoticed and creating powerful visual narratives. 
+                        My combined interests in technology and art allow me to view the world from a unique perspective.
+                    </p>
+
+                    <a href="#footer" class="button about__button-contact">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SKILLS ===============-->
+        <section class="skills section" id="skills">
+            <span class="section__subtitle">My Skills</span>
+            <h2 class="section__title">Experience</h2>
+
+            <div class="skills__container container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title">Data Analysis</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">SQL</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Data Visualization</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Data Cleaning</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Ms. Excell</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Tableau</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__title">Machine Learning</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Data Preparation</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Neural Network</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">VSCode</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Jupyter Notebook</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Pandas</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__title">Photo & Design</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                                
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Photography</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Adobe Lightroom</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+    
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+    
+                                <div>
+                                    <h3 class="skills__name">Adobe Photoshop</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+    
+                                <div>
+                                    <h3 class="skills__name">Canva</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Figma</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+    
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+    
+                                <div>
+                                    <h3 class="skills__name">Capcut</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+
+
+        <!--=============== WORK ===============-->
+        <section class="work section" id="work">
+            <span class="section__subtitle">My Portfolio</span>
+            <h2 class="section__title">Recent Works</h2>
+
+            <div class="work__filters">
+                <span class="work__item active-work" data-filter='all'>All</span>
+                <span class=" work__item" data-filter='.web'>Data Analysis</span>
+                <span class=" work__item" data-filter='.movil'>Machine Learning</span>
+                <!-- <span class=" work__item" data-filter='.design'>Photo & Design</span> -->
+            </div>
+
+            <div class="work__container container grid">
+                <div class="work__card mix web">
+                    <img src="assets/img/tableausalesdashboard.png" alt="" class="work__img">
+
+                    <h3 class="work__title">Sales Dashboard</h3>
+
+                    <a href="https://public.tableau.com/app/profile/m.alfan.tsalits/viz/Book1_17217630451060/SalesDashboard" class="work__button" target="_blank">
+                        View <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix movil">
+                    <img src="assets/img/Netflix-Logo.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Netflix App Sentiment Analysis</h3>
+
+                    <a href="https://github.com/alfants/Netflix-Sentiment-Analysis" class="work__button" target="_blank">
+                        View <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <!-- <div class="work__card mix design">
+                    <img src="assets/img/work3.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Brand Design</h3>
+
+                    <a href="#" class="work__button">
+                        View <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div> -->
+
+                <!-- <div class="work__card mix web">
+                    <img src="assets/img/work4.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Web Design</h3>
+
+                    <a href="#" class="work__button" target="_blank">
+                        View <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div> -->
+
+                <div class="work__card mix movil">
+                    <img src="assets/img/GlassClassification.png" alt="" class="work__img">
+
+                    <h3 class="work__title">Glass Type Classification</h3>
+
+                    <a href="https://github.com/alfants/Glass-Classification-Decision-Tree-Algorithm" class="work__button" target="_blank">
+                        View <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!--=============== EDUCATION ===============-->
+        <section class="testimonial section" id="education">
+            <span class="section__subtitle">My Study</span>
+            <h2 class="section__title">Education</h2>
+
+            <div class="testimonial__container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/Logo_SMANIX.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">SMAN 9 Surabaya High School</h3>
+                        <p class="testimonial__description">2018 - 2021<br>Math and Sains<br>
+                            <br>I completed my high school education at SMAN 9 Surabaya for 3 years in 2018 to 2021. 
+                            Here, I focused on Math and Science. At that time, i motivated to pursue higher education.
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/logo_unesa.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">State University of Surabaya</h3>
+                        <p class="testimonial__description">2021 - Present<br>Information System<br>
+                            <br>I am currently pursuing a Bachelor Degree at State University of Surabaya, majoring in Information System since 2021. 
+                            Throughout my studies, I have been focusing on Data Processing, where I have gained knowledge in Data Analysis. 
+                            I am also actively involved in organizations, such as the Student Representative Council as a member of advocacy staff, which allows me to develop my team work and management skills.
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/Celerates Logo.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Celerates Acceleration Program</h3>
+                        <p class="testimonial__description">2024<br>Data Science and Analyst Mentee<br>
+                            <br>To deepen my capabilities in the field of data, I completed the Independent Study Program organized by PT. Mitra Talenta Group for 5 months. 
+                            This program provided me with in-depth knowledge of Data Science & Analysis. 
+                            Through this training, I obtained an MSIB Certificate from Kampus Merdeka and succeeded in applying this knowledge to the Final Project of my training.<br><br>
+                            <a href="https://colab.research.google.com/drive/1QHltijKA9GM1cqMqhfkt1w3vU0r6M20h?usp=sharing" class="work__button" target="_blank">
+                                Final Project<i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer" id="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Contact Me</h1>
+
+            <ul class="footer__social">
+                <li class="footer__social-item">
+                    <a href="https://discord.com/invite/MZGc7WUV" target="_blank" class="footer__social-link" title="Discord">
+                        <i class='bx bxl-discord-alt footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="https://api.whatsapp.com/send?phone=+6282141297363&text=Hey there!" target="_blank" class="footer__social-link" title="WhatsApp">
+                        <i class='bx bxl-whatsapp footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="https://t.me/vhan_5" target="_blank" class="footer__social-link" title="Telegram">
+                        <i class='bx bxl-telegram footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="mailto:alfantsalits2@gmail.com" target="_blank" class="footer__social-link" title="Email">
+                        <i class='bx bx-envelope footer__social-icon'></i>
+                    </a>
+                </li>
+            </ul>
+
+            <span class="footer__copy">
+                &#169; 2024.
+            </span>
+        </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+
+    <!-- <script src="assets/js/scrollreveal.min.js"></script> -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
