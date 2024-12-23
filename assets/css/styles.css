@@ -495,6 +495,7 @@ body.light-theme {
   font-weight: var(--font-medium);
   color: var(--first-color);
   text-align: center;
+  white-space: nowrap;
   margin-bottom: 1.5rem;
 }
 
